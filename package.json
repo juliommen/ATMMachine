@@ -1,0 +1,26 @@
+{
+  "name": "atm-api",
+  "version": "1.0.0",
+  "description": "API to creat user accounts and proccess withdraw requests.",
+  "main": "./src/server.js",
+  "type": "module",
+  "scripts": {
+    "installAndRun": "npm i && node ./src/server.js",
+    "start":"node ./src/server.js",
+    "test": "mocha ./tests"
+  },
+  "author": "Júlio Mendonça da Costa",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "body-parser": "^1.20.0",
+    "chai": "^4.3.6",
+    "chai-http": "^4.3.0",
+    "cors": "^2.8.5",
+    "csv": "^6.1.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "install": "^0.13.0",
+    "mocha": "^10.0.0",
+    "npm": "^8.11.0"
+  }
+}
